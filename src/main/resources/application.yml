@@ -1,0 +1,12 @@
+#spring.application.name=db-test
+spring:
+  application:
+    name: db-test
+
+  datasource:
+    url: jdbc:postgresql://localhost:5433/atlas
+    username: ukyang
+    password: ukyang
+    driver-class-name: org.postgresql.Driver
+
+
